@@ -1,0 +1,25 @@
+dataset,model,strategy,n_prompts,accuracy
+pets,clip,name only,1,0.8081081081081081
+pets,clip,a photo of a {},1,0.8639639639639639
+pets,clip,+ domain context,1,0.8792792792792793
+pets,clip,+ species,1,0.8981981981981982
+pets,clip,ensemble,8,0.8873873873873874
+pets,clip,ensemble + species,8,0.9072072072072072
+pets,siglip,name only,1,0.9288288288288288
+pets,siglip,a photo of a {},1,0.936036036036036
+pets,siglip,+ domain context,1,0.9432432432432433
+pets,siglip,+ species,1,0.9468468468468468
+pets,siglip,ensemble,8,0.9441441441441442
+pets,siglip,ensemble + species,8,0.9495495495495495
+pathmnist,clip,name only,1,0.17555555555555555
+pathmnist,clip,a photo of a {},1,0.2411111111111111
+pathmnist,clip,+ domain context,1,0.19666666666666666
+pathmnist,clip,+ descriptions,2,0.25555555555555554
+pathmnist,clip,ensemble,4,0.17666666666666667
+pathmnist,clip,ensemble + descriptions,8,0.25222222222222224
+pathmnist,siglip,name only,1,0.25333333333333335
+pathmnist,siglip,a photo of a {},1,0.2
+pathmnist,siglip,+ domain context,1,0.2544444444444444
+pathmnist,siglip,+ descriptions,2,0.31
+pathmnist,siglip,ensemble,4,0.2822222222222222
+pathmnist,siglip,ensemble + descriptions,8,0.3522222222222222

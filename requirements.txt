@@ -1,0 +1,21 @@
+# Python 3.12. torch 2.2.2 is the last release with Intel-Mac wheels; it needs numpy < 2.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+transformers==4.44.2
+sentencepiece        # SigLIP tokenizer
+protobuf
+huggingface-hub
+pyarrow<16           # reads the Oxford-IIIT Pets parquet files; pyarrow >= 16 needs numpy 2
+medmnist             # PathMNIST
+scikit-learn
+pandas
+matplotlib
+pillow
+tqdm
+umap-learn
+numba==0.60.0        # newer numba/llvmlite have no Intel-Mac wheels
+llvmlite==0.43.0
+ipykernel
+nbformat
+nbconvert
